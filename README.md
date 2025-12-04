@@ -1,5 +1,7 @@
 # Exploring Shellcode Obfuscation Techniques to Evade Antivirus
 
+## Project Summary
+
 This project investigates the intersection of offensive security and antivirus defense mechanisms. Shellcode is typically detected by modern antivirus programs using signature-based, heuristic, and machine-learning methods. The project aims to analyze these detection methodologies and develop obfuscation techniques to evade them.
 
 It begins with a comprehensive review of existing shellcode execution, antivirus detection methods, and evasion tactics. The project then implements multiple obfuscation techniques including encryption-based methods and encoding strategies using C and Python. These obfuscated payloads are then tested against antivirus engines in controlled virtual environments to measure detection rates and determine effectiveness.
