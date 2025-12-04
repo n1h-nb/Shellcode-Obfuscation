@@ -1,2 +1,7 @@
-# Shellcode-Obfuscation
-The project studies how antivirus engines detect shellcode and develops obfuscation techniques to evade them, then measures how successfully these modified payloads bypass detection in an isolated lab using tools like VirusTotal and Windows Defender.​
+# Exploring Shellcode Obfuscation Techniques to Evade Antivirus
+
+This project investigates the intersection of offensive security and antivirus defense mechanisms. Shellcode is typically detected by modern antivirus programs using signature-based, heuristic, and machine-learning methods. The project aims to analyze these detection methodologies and develop obfuscation techniques to evade them.
+
+It begins with a comprehensive review of existing shellcode execution, antivirus detection methods, and evasion tactics. The project then implements multiple obfuscation techniques including encryption-based methods and encoding strategies using C and Python. These obfuscated payloads are then tested against antivirus engines in controlled virtual environments to measure detection rates and determine effectiveness.
+
+The core objectives are threefold: to analyze how antivirus engines identify and classify shellcode, to develop and test multiple obfuscation methods that effectively bypass AV solutions, and to evaluate the success rates of each technique. Through comparative analysis of detection outcomes before and after obfuscation, the project identifies the most effective evasion strategies while also uncovering vulnerabilities in current antivirus detection mechanisms. The findings contribute to the field of offensive security by helping security professionals understand weaknesses in existing defenses and develop better countermeasures.
